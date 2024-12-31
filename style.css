@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #000428, #004e92);
+    color: white;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  .container {
+    padding: 20px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  h1 {
+    font-size: 3em;
+  }
+  
+  #countdown {
+    font-size: 1.5em;
+    margin: 20px 0;
+  }
+  
+  #generate-btn {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  #generate-btn:hover {
+    background-color: #ff856d;
+  }
+  
+  #resolution {
+    margin-top: 20px;
+    font-size: 1.5em;
+  }
+  
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+  }
+  
